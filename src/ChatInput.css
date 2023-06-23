@@ -1,0 +1,41 @@
+.ChatInput{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+.Input{
+    /* border: 1px solid black; */
+    width: 80%;
+    /* height: 5vh;
+    padding: 10px; */
+    border-radius: 5px;
+}
+.Input>form{
+    flex: 1;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.Input>form>button{
+    display: none;
+    /* flex: 1; */
+    border-radius: 30px;
+    border: none;
+    outline-width: 0;
+    font-size: 16px;
+    padding: 10px;   
+}
+
+.Input>form>input{
+    flex: 1;
+    border-radius: 30px;
+    border: none;
+    outline-width: 0;
+    font-size: 16px;
+    padding: 10px;
+    
+}

@@ -1,0 +1,17 @@
+.ActualChatHeadermenus{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.ActualChatHeader{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.ActualChathead{
+    display: flex;
+    padding: 10px;
+}
+.emptyname{
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+}

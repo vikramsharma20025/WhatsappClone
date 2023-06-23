@@ -1,0 +1,17 @@
+.chatitem{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+.chatitem:hover{
+    background-color: #e9eaeb;
+}
+.chatinfo>h2{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.chatinfo{
+    margin-left: 15px;
+}

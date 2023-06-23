@@ -1,0 +1,21 @@
+.sidebar__header{
+    display: flex;
+    /* flex: 0.35; */
+    /* height: 7vh; */
+    justify-content: space-between;
+    /* padding: px;; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    border: 1px solid black;
+}
+
+/* .sidebarnav{
+    max-width: 25vw;
+} */
+
+.Account{
+    padding: 10px;
+}
+.headerbuttons{
+    padding: 10px;
+}
