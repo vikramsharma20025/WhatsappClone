@@ -15,6 +15,8 @@ function Login() {
                 user:result.user,
             })
         }).catch((error) => alert(error.message));
+        // create cookies
+        
     }
     return (
         <div className='Login'>
@@ -25,7 +27,7 @@ function Login() {
                 />
                 <div className='login__text'>
                     <h1>
-                        Sign in to whatsapp
+                        Come join the convo
                     </h1>
                 </div>
                 <Button onClick={signin}>Sign in with Google</Button>

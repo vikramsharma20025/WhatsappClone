@@ -40,7 +40,7 @@ function Chatitem({id,name, addNewChat, lastmessage }) {
   return !addNewChat? (
     <Link to={`/rooms/${id}`}>
         <div className='chatitem'>
-            <Avatar src={`https://avatars.dicebear.com/api/human/aslkjdkasjlkdj/${Math.floor(Math.random()*5000)}.svg`}/>
+            <Avatar src={`https://www.thetonyrobbinsfoundation.org/wp-content/uploads/2017/09/Cool-avatars-anonymous-avatar.jpg`}/>
             <div className='chatinfo'>
                 <h2>{name}</h2>
                 <p>{lastmessage}</p>
@@ -49,7 +49,7 @@ function Chatitem({id,name, addNewChat, lastmessage }) {
     </Link>
   ): (
     <div onClick={createChat} className='chatitem'>
-        <h1>Add new Chat</h1>
+        <h2>Add new Chat</h2>
     </div>
   );
 }

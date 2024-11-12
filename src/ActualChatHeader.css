@@ -2,11 +2,13 @@
     display: flex;
     flex-direction: row;
     padding: 10px;
+    
 }
 .ActualChatHeader{
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    height: 13vh;
+    /* border: 1px solid black; */
 }
 .ActualChathead{
     display: flex;

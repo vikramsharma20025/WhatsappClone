@@ -9,7 +9,7 @@ function Sidebar() {
   return (
     <div className='sidebar'>
         <SidebarHeader />
-        <SidebarSearch />
+        {/* <SidebarSearch /> */}
         <Chats />
         
     </div>

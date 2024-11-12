@@ -6,7 +6,7 @@ import { IconButton } from '@mui/material';
 // import Search from './Search.js';
 import SearchOutlined from '@mui/icons-material/SearchOutlined';
 
-function SidebarSearch() {
+function SidebarSearch(){
   return (
     <div className='SidebarSearch'>
       <div className='search'>

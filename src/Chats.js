@@ -17,6 +17,7 @@ function Chats() {
         data: doc.data(),
       }))
     ));
+    
     return ()=>{
       unsubscribe();
     };
@@ -25,7 +26,7 @@ function Chats() {
     <div className='Chats'>
       <Chatitem addNewChat/>
       {rooms.map(room=>(
-        <Chatitem key={room.id} id={room.id} name={room.data.name} lastmessage={messages[0]?message} />
+        <Chatitem key={room.id} id={room.id} name={room.data.name} lastmessage={messages[0]?.message} />
       ))}
     </div>
   );

@@ -1,10 +1,13 @@
 *{
   margin: 0;
 }
+a{
+  text-decoration: none;
+}
 .app{
   display: grid;
   place-items: center;
-  background-color: #dadbd3;
+  background-color: wheat;
   height: 100vh;
 }
 .app__body{

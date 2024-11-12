@@ -4,3 +4,9 @@
     overflow-y: scroll;
     cursor: pointer;
 }
+
+a{
+    text-decoration: none;
+    /* use some good color */
+    color: black;
+}
